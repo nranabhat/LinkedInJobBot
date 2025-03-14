@@ -1,0 +1,43 @@
+# Enter your Linkedin password and username below. Do not commit this file after entering these credentials.
+# Linkedin credentials
+email = "YourLinkedin@UserEmail.com"
+password = "YourLinkedinPassword"
+
+# Optional! run browser in headless mode, no browser screen will be shown it will work in background.
+headless = False
+# Chrome driver installed path. Leave empty if you want to install Chrome when you run the bot
+chromeDriverPath = ""
+# If you left above credentials fields empty. For Chrome enter profile dir to run the bot to prevent logging in your account each time
+# get Chrome profile path by typing following url: chrome://version/
+chromeProfilePath = r""
+
+# location you want to search the jobs - ex : ["Poland", "Singapore", "New York City Metropolitan Area", "Monroe County"]
+# continent locations:["Europe", "Asia", "Australia", "NorthAmerica", "SouthAmerica", "Africa", "Australia"]
+location = ["NorthAmerica"]
+# keywords related with your job search
+keywords = ["data scientist", "data engineer", "ml engineer", "machine learning engineer", "machine learning scientist", "data science"]
+# job titles - ex: ["Software Engineer", "Frontend Engineer", "Marketing"]
+jobTitles = ["Data Scientist", "Data Engineer", "Machine Learning Engineer", "Artificial Intelligence Engineer", "Python Developer"]
+#job experience Level - ex:  ["Internship", "Entry level" , "Associate" , "Mid-Senior level" , "Director" , "Executive"]
+experienceLevels = [ "Entry level" ]
+#job posted date - ex: ["Any Time", "Past Month" , "Past Week" , "Past 24 hours"] - select only one
+datePosted = ["Past Week"]
+#job type - ex:  ["Full-time", "Part-time" , "Contract" , "Temporary", "Volunteer", "Intership", "Other"]
+jobType = ["Full-time", "Part-time" , "Contract"]
+#remote  - ex: ["On-site" , "Remote" , "Hybrid"]
+remote = ["On-site" , "Remote" , "Hybrid"]
+#salary - ex:["$40,000+", "$60,000+", "$80,000+", "$100,000+", "$120,000+", "$140,000+", "$160,000+", "$180,000+", "$200,000+" ] - select only one
+salary = [ "$80,000+"]
+#sort - ex:["Recent"] or ["Relevent"] - select only one
+sort = ["Recent"]
+#Blacklist companies you dont want to apply - ex: ["Apple","Google"]
+blacklistCompanies = ["Crossover", "Jobot", "EPAM Anywhere", "BairesDev"]
+#Blaclist keywords in title - ex:["manager", ".Net"]
+blackListTitles = []
+#Follow companies after sucessfull application True - yes, False - no
+followCompanies = False
+# One keyword which is unique to one of your CV's. This is used to select the correct CV. ex: ["Android"]
+distinctCVKeyword = ["Scientist"]
+
+ # Testing & Debugging features
+displayWarnings = True

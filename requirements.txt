@@ -3,3 +3,9 @@ webdriver_manager
 packaging
 pymongo
 python-dotenv
+geopandas
+plotly
+matplotlib
+numpy
+pandas
+us
